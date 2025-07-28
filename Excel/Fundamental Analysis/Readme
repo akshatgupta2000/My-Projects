@@ -1,1 +1,76 @@
-Readme
+# Excel-based Valuation Model 
+This repository contains independently built excel models for fundamental analysis, sector-wise equity valuation. Each file reflects hands on application of key valuation frameworks including DCF, WACC, DDM, NAV and RIM.
+## Project list
+
+### 1. Banking & Financial services Sector valuation
+- Models used: FCFE, DDM, RIM
+- Coverage: ICICI Bank, HDFC Bank, SBI, Axis Bank, Bajaj Finserv, Muthoot Finance, Bajaj Housing Finance
+- Key work:
+* Shareholder return-based valuation (RIM, DDM)
+* FCFE-based intrinsic value models
+* Cost of equity, ROE
+* RBI capital adequacy norms integreated
+* Senstivity analysis at difference cost of equity and terminal growth rate
+
+### 2. Energy Sector
+- Models used: FCFF
+- Coverage: Tata Power, Reliance Power, JSW Power, Adani Power
+- Key work:
+* Forecasted free cash flows to firm
+* WACC-based DCF valuation
+* Projected capex, revenue 
+
+### 3. Defence sector
+- Models used: FCFF
+- Coverage: BEL, Mazdock Shipbuilders
+- Key work: 
+* Forecasted Free cash flow to firm
+* WACC-based DCF valuation
+* Projected capex, revenue from government contacts
+
+### 4. Automotive sector
+- Models used: FCFF, NAV
+- Coverage: Mahindra & Mahindra, Maruti Suzuki, Tata Motors, Samvardhana Motherson, Exide Industries, TVS Motors
+- Key work:
+* Asset-based NAV for Exide
+* FCFF for all the rest
+
+### 5. IT sector
+- Models used: FCFF
+- Coverage: Infosys, TCS, HCL Tech, Wipro, LTMindtree
+- Key work:
+* Recurring cash flow projection for services
+* Revenue growth and forecast
+* Terminal value via gordon growth model
+
+### 6. FMCG & Retail
+- Models used: FCFF
+- Forecast horizon: FY2026 to FY2030
+- Key work:
+* Common-size financial statements
+* Financial statements (Balance sheet & Income statement) projections driven by historical growth patterns and ratios
+* Bottom-up FCFF calculation using projected cash flows
+* WACC estimation and terminal value computation
+* Dupont analysis
+
+## Tools & Techniques
+- Microsoft Excel (Modelling)
+- FCFF valuation with terminal value
+- Dupont ROE decomposition
+- Ratio trend analysis
+- Power BI (Interactive dashboard)- FMCG/retail
+- Common-size financial statements
+
+## About the Project
+This is part of a broader self-initiated valuation series covering multiple Indian sectors. Built entirely in Microsoft Excel, it demonstrates how theoretical finance concepts like DCF, FCFF, FCFE, DDM, RIM and NAV- can be translated into practical, decision-ready models. 
+
+## Objective of the project
+The objective of this project is to demonstrate the practical application of financial analysis and valuation techniques across multiple sectors using Excel-based models, Specifically, this project aims to:
+
+- Build sector-wise financial models using valuation models such as FCFF, FCFE, DDM, RIM, and NAV
+- Forecast Income Statement and Balance Sheets for FY2026-FY2030 with structured assumptions.
+- Assess Intrinsic value of companies across Banking, Energy, Defence, IT, Automotive, FMCG and Retail sectors.
+- Apply ratio analysis and Dupont analysis for evaluating Financial performance
+- Develop a professional portfolio that showcases skills in Equity research, valuation.
+
+This initiative bridges classroom finance concepts with real-world financial analysis and offers a recruiter-facing demonstration of technical and analytical capabilities.
